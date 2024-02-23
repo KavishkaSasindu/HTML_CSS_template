@@ -1,0 +1,134 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+/* Navbar Start */
+.navbar-container {
+  width: 100%;
+  margin: auto;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+}
+
+.navbar-inner-container {
+  width: 80%;
+  height: inherit;
+  background-color: aliceblue;
+  border-radius: 40px;
+  padding: 0 15px 0 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.list-items {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.list-items > li {
+  margin-left: 50px;
+  cursor: pointer;
+  font-size: 20px;
+  transition: transform ease-in 0.3s;
+}
+
+.list-items > li:hover {
+  transform: scale(1.1);
+}
+
+/* Navbar End */
+
+/* body-container start */
+
+.img-1 {
+  width: 100%;
+}
+
+.body-container {
+  width: 100%;
+  height: 800px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.body-inner {
+  width: 70%;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.body-parser {
+  width: 70%;
+}
+
+.heading-1 {
+  margin: 12px 0 12px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.heading-1 > h1 {
+  font-size: 50px;
+}
+
+.span-2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.heading-2 {
+  margin: 12px 0 12px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.span-1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.heading-2 > p {
+  font-size: 20px;
+}
+
+.heading-button {
+  margin: 12px 0 12px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.heading-button > button {
+  padding: 15px;
+  border: none;
+  background-color: rgb(233, 9, 166);
+  border-radius: 20px;
+  color: white;
+  transition: transform ease-out 0.1s;
+}
+
+.heading-button > button:hover {
+  background-color: rgb(246, 248, 219);
+  color: black;
+  transform: scale(1.1);
+}
+/* body-container end */
+
+/* card-section start */
+
+/* card section end */
